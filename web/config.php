@@ -1,6 +1,6 @@
 <?php
-   $database = "bulgaria";
-   $user = getenv("DB_USER");
-   $password  = getenv("DB_PASS");
-   $host = "db";
-?>
+$config = include 'config.private.php';
+  $database = $config['database'];
+  $user     = $config['user'];
+  $password = $config['password'];
+  $host     = $config['host'];
