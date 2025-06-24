@@ -1,6 +1,6 @@
 <?php
    $database = "bulgaria";
-   $user = "web_user";
-   $password  = "Password1";
+   $user = getenv("DB_USER");
+   $password  = getenv("DB_PASS");
    $host = "db";
 ?>
